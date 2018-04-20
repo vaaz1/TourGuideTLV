@@ -5,40 +5,45 @@ public class Item {
     private String mName;
     private String mDescription;
     private String mLocation;
+    private String mGeo;
     private String mTime;
     private String mPhone;
     private static final int NO_IMG_PROVIDED = -1;
 
 
-    public Item(int imageResource, String name, String description, String location, String time, String phone){
+    public Item(int imageResource, String name, String description, String location, String geo, String time, String phone){
         mImageResource = imageResource;
         mName = name;
         mDescription = description;
         mLocation = location;
+        mGeo = geo;
         mTime = time;
         mPhone = phone;
     }
 
-    public Item(String name, String description, String location, String time, String phone){
+    public Item(String name, String description, String location, String geo, String time, String phone){
         mName = name;
         mDescription = description;
         mLocation = location;
+        mGeo = geo;
         mTime = time;
         mPhone = phone;
     }
 
-    public Item(int imageResource, String name, String description, String location, String time){
+    public Item(int imageResource, String name, String description, String location, String geo, String time){
         mImageResource = imageResource;
         mName = name;
         mDescription = description;
         mLocation = location;
+        mGeo = geo;
         mTime = time;
     }
 
-    public Item(String name, String description, String location, String time){
+    public Item(String name, String description, String location, String geo, String time){
         mName = name;
         mDescription = description;
         mLocation = location;
+        mGeo = geo;
         mTime = time;
     }
 
@@ -53,6 +58,9 @@ public class Item {
     }
     public String getmLocation(){
         return mLocation;
+    }
+    public String getmGeo() {
+        return mGeo;
     }
     public String getmTime(){
         return mTime;

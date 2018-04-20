@@ -69,14 +69,28 @@ public class ItemAdapter extends ArrayAdapter<Item> {
                 @Override
                 public void onClick(View v) {
                     String phoneText = currentItem.getmPhone();
-                    Toast toast = Toast.makeText(getContext(),"call " + phoneText, Toast.LENGTH_SHORT);
-                    toast.show();
                     Intent callIntent = new Intent(Intent.ACTION_DIAL);
-                    callIntent.setData(Uri.parse("tel."+"0542820914"));
+                    callIntent.setData(Uri.parse("tel:" + phoneText));
+                    if(callIntent.resolveActivity(v.getContext().getPackageManager()) != null){
+                        v.getContext().startActivity(callIntent);
+                    }
                 }
             });
         }
 
+        if(currentItem.getmLocation() != null){
+            locationTextView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    String locationText = currentItem.getmGeo();
+                    Intent locationIntent = new Intent(Intent.ACTION_VIEW);
+                    locationIntent.setData(Uri.parse("geo:" + locationText+"?z=19"));
+                    if(locationIntent.resolveActivity(v.getContext().getPackageManager()) != null){
+                        v.getContext().startActivity(locationIntent);
+                    }
+                }
+            });
+        }
 
         return listItemView;
     }

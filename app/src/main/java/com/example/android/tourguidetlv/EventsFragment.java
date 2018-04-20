@@ -32,45 +32,33 @@ public class EventsFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.items_list, container, false);
 
-        final ArrayList<Item> natureItems = new ArrayList<Item>();
-        natureItems.add(new Item(R.drawable.cinema,"City Cinema",
+        final ArrayList<Item> eventItems = new ArrayList<Item>();
+        eventItems.add(new Item(R.drawable.cinema,"City Cinema",
                 "General movies theater",
-                "Weizmann",""));
-        natureItems.add(new Item(R.drawable.purim_kikar_hamedina,"Purim Celebration",
+                "Ben Ami St 16","32.078356, 34.773680",""));
+        eventItems.add(new Item(R.drawable.purim_kikar_hamedina,"Purim Celebration",
                 "National holiday (Purim) celebration party",
-                "Hamedina Square","12.03.2018"));
-        natureItems.add(new Item(R.drawable.logo_city,"Habima National Theatre",
-                "Theatre",
-                "Ben Zion",""));
-        natureItems.add(new Item(R.drawable.logo_city,"Opera Residential Tower",
-                "Tel Aviv Opera",
-                "Check.",""));
-        natureItems.add(new Item(R.drawable.open_air_opera,"Open Air Opera",
-                "City event, playing opera outside",
-                "Yarkon Park","coming soon"));
+                "Hamedina Square","32.086621, 34.789861","12.03.2018"));
+        eventItems.add(new Item(R.drawable.independence_day,"Independence night celebration",
+                "Music and dance shows for the celebration of Israel's independence",
+                "Rabin Square","32.080651, 34.780612","18.04.2018 from 20:50"));
+        eventItems.add(new Item(R.drawable.open_air_opera,"Open Air Opera",
+                "City event, open air opera",
+                "Yarkon Park","32.103506, 34.814404","coming soon"));
+        eventItems.add(new Item(R.drawable.yoga,"Friday Yoga",
+                "free yoga sessions",
+                "Tel Aviv Port","32.099740, 34.776930","every Friday at 8 AM"));
+        eventItems.add(new Item(R.drawable.folk_dancing,"Israeli Folk Dancing",
+                "free national folk dancing sessions",
+                "Gordon Beach promenade","32.083678, 34.768538","every Saturday at 11 AM"));
 
-        ItemAdapter adapter = new ItemAdapter(getActivity(), natureItems, R.color.colorEvents);
+
+        ItemAdapter adapter = new ItemAdapter(getActivity(), eventItems, R.color.colorEvents);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String pos = String.valueOf(position);
-                Item item = natureItems.get(position);
-                pos = item.getmLocation();
-                Toast toast = Toast.makeText(getContext(),"clicked on item at "+pos, Toast.LENGTH_SHORT);
-                toast.show();
-                Uri geoLocation = Uri.parse("geo:47.8060805,7.6267819?z=19");
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(geoLocation);
-                if(intent.resolveActivity(getActivity().getPackageManager()) != null){
-                    startActivity(intent);
-                }
-            }
-        });
         return rootView;
     }
 
