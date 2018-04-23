@@ -28,30 +28,50 @@ public class ShoppingFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.items_list, container, false);
 
         final ArrayList<Item> shoppingItems = new ArrayList<Item>();
-        shoppingItems.add(new Item(R.drawable.azrieli_towers,"Azrieli Shopping Mall",
-                "Fashion shopping mall",
-                "Derech Menachem Begin 132","32.074500, 34.792100","Sun-Thu 9:30-22:00, Fri 9:30-15:00, Sat 20:00-23:00", "036081199"));
-        shoppingItems.add(new Item(R.drawable.shopping_tlv,"TLV Mall",
-                "Tel Aviv's newest fashion mall",
-                "Carlebach St 4","32.067913, 34.783529","Sun-Thu 10:00-22:00, Fri 9:00-16:00, Sat 19:30-23:00", "0723272470"));
-        shoppingItems.add(new Item(R.drawable.dizengoff_center,"Dizengoff Center",
-                "Indoor Mall for fashion, technology, food, wellness and entertainment",
-                "Dizengoff St 50","32.075206, 34.774736","Sun-Thu 9:00-22:00, Fri 9:00-15:00, Sat closed", "036212400"));
-        shoppingItems.add(new Item(R.drawable.sarona_market,"Sarona Market",
-                "Indoor culinary complex",
-                "Aluf Kalman Magen St 3","32.071289, 34.786835","Sat-Thu 9:00-23:00, Fri 8:00-18:00", "036242424"));
-        shoppingItems.add(new Item(R.drawable.shuk_hacarmel,"Carmel Market",
-                "Open-air market offering clothing, toys, food, groceries",
-                "HaCarmel St","32.068384, 34.768382","Sun-Thu 8:00-18:00, Fri 8:00-16:00, Sat closed"));
-        shoppingItems.add(new Item("Nahalat Binyamin Market",
-                "Unique locally made items and crafts",
-                "Nahalat Binyamin St","32.068203, 34.770222","Tue+Fri 10:00-17:00"));
-        shoppingItems.add(new Item("Levinsky Market",
-                "Spices, herbs and dried fruits",
-                "Levinsky","32.059623, 34.772708",""));
-        shoppingItems.add(new Item("Jaffa Flea Market",
-                "Bazaar-style market offering antiques, jewlery, clothing and second hand items",
-                "Olei Zion St","32.052813, 34.756893","Sun-Thu 9:00-17:00, Fri 9:00-14:00, Sat closed"));
+        shoppingItems.add(new Item(R.drawable.azrieli_towers, getString(R.string.shopping_azrieli),
+                getString(R.string.shopping_azrieli_description),
+                getString(R.string.shopping_azrieli_location),
+                getString(R.string.shopping_azrieli_geo),
+                getString(R.string.shopping_azrieli_time),
+                getString(R.string.shopping_azrieli_phone)));
+        shoppingItems.add(new Item(R.drawable.shopping_tlv,getString(R.string.shopping_tlv),
+                getString(R.string.shopping_tlv_description),
+                getString(R.string.shopping_tlv_location),
+                getString(R.string.shopping_tlv_geo),
+                getString(R.string.shopping_tlv_time),
+                getString(R.string.shopping_tlv_phone)));
+        shoppingItems.add(new Item(R.drawable.dizengoff_center, getString(R.string.shopping_dizengoff),
+                getString(R.string.shopping_dizengoff_description),
+                getString(R.string.shopping_dizengoff_location),
+                getString(R.string.shopping_dizengoff_geo),
+                getString(R.string.shopping_dizengoff_time),
+                getString(R.string.shopping_dizengoff_phone)));
+        shoppingItems.add(new Item(R.drawable.sarona_market,getString(R.string.shopping_sarona_market),
+                getString(R.string.shopping_sarona_market_description),
+                getString(R.string.shopping_sarona_market_location),
+                getString(R.string.shopping_sarona_market_geo),
+                getString(R.string.shopping_sarona_market_time),
+                getString(R.string.shopping_sarona_market_phone)));
+        shoppingItems.add(new Item(R.drawable.shuk_hacarmel,getString(R.string.shopping_carmel),
+                getString(R.string.shopping_carmel_description),
+                getString(R.string.shopping_carmel_location),
+                getString(R.string.shopping_carmel_geo),
+                getString(R.string.shopping_carmel_time)));
+        shoppingItems.add(new Item(getString(R.string.shopping_nahalat_binyamin),
+                getString(R.string.shopping_nahalat_binyamin_description),
+                getString(R.string.shopping_nahalat_binyamin_location),
+                getString(R.string.shopping_nahalat_binyamin_geo),
+                getString(R.string.shopping_nahalat_binyamin_time)));
+        shoppingItems.add(new Item(getString(R.string.shopping_levinsky),
+                getString(R.string.shopping_levinsky_description),
+                getString(R.string.shopping_levinsky_location),
+                getString(R.string.shopping_levinsky_geo),
+                getString(R.string.shopping_levinsky_time)));
+        shoppingItems.add(new Item(getString(R.string.shopping_flea_market),
+                getString(R.string.shopping_flea_market_description),
+                getString(R.string.shopping_flea_market_location),
+                getString(R.string.shopping_flea_market_geo),
+                getString(R.string.shopping_flea_market_time)));
 
 
 

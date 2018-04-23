@@ -7,4 +7,441 @@
     <string name="category_restaurants">Restaurants</string>
     <string name="category_nature">Nature</string>
 
+    <!--shopping-->
+    <string name="shopping_azrieli">Azrieli Shopping Mall</string>
+    <string name="shopping_azrieli_description">Fashion shopping mall</string>
+    <string name="shopping_azrieli_location">Derech Menachem Begin 132</string>
+    <string name="shopping_azrieli_geo">32.074500, 34.792100</string>
+    <string name="shopping_azrieli_time">Sun-Thu 9:30-22:00, Fri 9:30-15:00, Sat 20:00-23:00</string>
+    <string name="shopping_azrieli_phone">036081199</string>
+
+    <string name="shopping_tlv">TLV Mall</string>
+    <string name="shopping_tlv_description">Tel Aviv\'s newest fashion mall</string>
+    <string name="shopping_tlv_location">Carlebach St 4</string>
+    <string name="shopping_tlv_geo">32.067913, 34.783529</string>
+    <string name="shopping_tlv_time">Sun-Thu 10:00-22:00, Fri 9:00-16:00, Sat 19:30-23:00</string>
+    <string name="shopping_tlv_phone">0723272470</string>
+
+    <string name="shopping_dizengoff">Dizengoff Center</string>
+    <string name="shopping_dizengoff_description">Indoor Mall for fashion, technology, food, wellness and entertainment</string>
+    <string name="shopping_dizengoff_location">Dizengoff St 50</string>
+    <string name="shopping_dizengoff_geo">32.075206, 34.774736</string>
+    <string name="shopping_dizengoff_time">Sun-Thu 9:00-22:00, Fri 9:00-15:00, Sat closed</string>
+    <string name="shopping_dizengoff_phone">036212400</string>
+
+    <string name="shopping_sarona_market">Sarona Market</string>
+    <string name="shopping_sarona_market_description">Indoor culinary complex</string>
+    <string name="shopping_sarona_market_location">Aluf Kalman Magen St 3</string>
+    <string name="shopping_sarona_market_geo">32.071289, 34.786835</string>
+    <string name="shopping_sarona_market_time">Sat-Thu 9:00-23:00, Fri 8:00-18:00</string>
+    <string name="shopping_sarona_market_phone">036242424</string>
+
+    <string name="shopping_carmel">Carmel Market</string>
+    <string name="shopping_carmel_description">Open-air market offering clothing, toys, food, groceries</string>
+    <string name="shopping_carmel_location">HaCarmel St</string>
+    <string name="shopping_carmel_geo">32.068384, 34.768382</string>
+    <string name="shopping_carmel_time">Sun-Thu 8:00-18:00, Fri 8:00-16:00, Sat closed</string>
+    <string name="shopping_carmel_phone"></string>
+
+    <string name="shopping_nahalat_binyamin">Nahalat Binyamin Market</string>
+    <string name="shopping_nahalat_binyamin_description">Unique locally made items and crafts</string>
+    <string name="shopping_nahalat_binyamin_location">Nahalat Binyamin St</string>
+    <string name="shopping_nahalat_binyamin_geo">32.068203, 34.770222</string>
+    <string name="shopping_nahalat_binyamin_time">Tue+Fri 10:00-17:00</string>
+    <string name="shopping_nahalat_binyamin_phone"></string>
+
+
+    <string name="shopping_levinsky">Levinsky Market</string>
+    <string name="shopping_levinsky_description">Spices, herbs and dried fruits</string>
+    <string name="shopping_levinsky_location">Levinsky St</string>
+    <string name="shopping_levinsky_geo">32.059623, 34.772708</string>
+    <string name="shopping_levinsky_time"></string>
+    <string name="shopping_levinsky_phone"></string>
+
+    <string name="shopping_flea_market">Jaffa Flea Market</string>
+    <string name="shopping_flea_market_description">Bazaar-style market offering antiques, jewlery, clothing and second hand items</string>
+    <string name="shopping_flea_market_location">Olei Zion St</string>
+    <string name="shopping_flea_market_geo">32.052813, 34.756893</string>
+    <string name="shopping_flea_market_time">Sun-Thu 9:00-17:00, Fri 9:00-14:00, Sat closed</string>
+    <string name="shopping_flea_market_phone"></string>
+
+    <!--restaurants-->
+
+    <string name="restaurant_hummus_asli">Hummus HaAsli</string>
+    <string name="restaurant_hummus_asli_description">Original hummus restaurant in Jaffa</string>
+    <string name="restaurant_hummus_asli_location">Yefet St 73</string>
+    <string name="restaurant_hummus_asli_geo">32.046163, 34.752614</string>
+    <string name="restaurant_hummus_asli_time">Sun-Sat  7:00-21:00</string>
+    <string name="restaurant_hummus_asli_phone"></string>
+
+    <string name="restaurant_falafel_carmel">Falafel Kiosk</string>
+    <string name="restaurant_falafel_carmel_description">Gluten free and regular Falafel</string>
+    <string name="restaurant_falafel_carmel_location">HaCarmel St 16</string>
+    <string name="restaurant_falafel_carmel_geo">32.066845, 34.766806</string>
+    <string name="restaurant_falafel_carmel_time"></string>
+    <string name="restaurant_falafel_carmel_phone"></string>
+
+    <string name="restaurant_fifty_bar">FIFTY</string>
+    <string name="restaurant_fifty_bar_description">cozy, easy going Bar</string>
+    <string name="restaurant_fifty_bar_location">Dizengoff St 43</string>
+    <string name="restaurant_fifty_bar_geo">32.074597, 34.775889</string>
+    <string name="restaurant_fifty_bar_time">Sat-Thu 18:00-3:00, Fri 13:00-3:00</string>
+    <string name="restaurant_fifty_bar_phone"></string>
+
+    <string name="restaurant_fish_jaffa_port">The Old Man And The Sea</string>
+    <string name="restaurant_fish_jaffa_port_description">Fish restaurant in Jaffa Port, sitting places outside</string>
+    <string name="restaurant_fish_jaffa_port_location">Retzif HaAliya HaShniya St 101</string>
+    <string name="restaurant_fish_jaffa_port_geo">32.052997, 34.750024</string>
+    <string name="restaurant_fish_jaffa_port_time">Sat-Fri 11:00-0:00</string>
+    <string name="restaurant_fish_jaffa_port_phone">035448820</string>
+
+    <string name="restaurant_suzana">Suzana</string>
+    <string name="restaurant_suzana_description">Homemade food, breakfasts, meats, fish, Mediterranean food</string>
+    <string name="restaurant_suzana_location">Shabazi St 9</string>
+    <string name="restaurant_suzana_geo">32.061384, 34.763543</string>
+    <string name="restaurant_suzana_time">Sat-Fri 10:00-0:00</string>
+    <string name="restaurant_suzana_phone">035177580</string>
+
+    <string name="restaurant_rothschild_kiosk">Rothschild Coffee Kiosk</string>
+    <string name="restaurant_rothschild_kiosk_description">Coffee and breakfast in picknick like atmosphere</string>
+    <string name="restaurant_rothschild_kiosk_location">Rothschild Blvd 82</string>
+    <string name="restaurant_rothschild_kiosk_geo">32.065880, 34.777279</string>
+    <string name="restaurant_rothschild_kiosk_time">Sat-Thu 7:00-0:00, Fri 7:00-18:00</string>
+    <string name="restaurant_rothschild_kiosk_phone">035600036</string>
+
+    <string name="restaurant_robina">Robina</string>
+    <string name="restaurant_robina_description">Pub, drinks and food till late night</string>
+    <string name="restaurant_robina_location">Marmorek St 6</string>
+    <string name="restaurant_robina_geo">32.071694, 34.779640</string>
+    <string name="restaurant_robina_time">Mon-Thu 16:00-3:00, Fri 13:00-3:00, Sat 15:00-3:00, Sun 17:30-3:00</string>
+    <string name="restaurant_robina_phone">0525050540</string>
+
+    <!--Nature-->
+
+    <string name="nature_yarkon">Yarkon Park - Ganei Yehoshua</string>
+    <string name="nature_yarkon_description">Big park along the Yarkon river including bike tracks, outdoor gyms and playing grounds</string>
+    <string name="nature_yarkon_location">Ussishkin Promenade</string>
+    <string name="nature_yarkon_geo">32.097200, 34.787039</string>
+    <string name="nature_yarkon_time">Open 24/7</string>
+    <string name="nature_yarkon_phone"></string>
+
+    <string name="nature_cactus_garden">Cactus Garden</string>
+    <string name="nature_cactus_garden_description">Garden with many different types of succulents and other plants</string>
+    <string name="nature_cactus_garden_location">Ganei Yehoshua Park</string>
+    <string name="nature_cactus_garden_geo">32.101602, 34.813929</string>
+    <string name="nature_cactus_garden_time">Open 24/7</string>
+    <string name="nature_cactus_garden_phone"></string>
+
+    <string name="nature_clore_beach">Charles Clore Beach</string>
+    <string name="nature_clore_beach_description">Non-motorized water sports, dog friendly</string>
+    <string name="nature_clore_beach_location">Kaufmann St 5</string>
+    <string name="nature_clore_beach_geo">32.060995, 34.759510</string>
+    <string name="nature_clore_beach_time">Open 24/7</string>
+    <string name="nature_clore_beach_phone"></string>
+
+    <string name="nature_clore_garden">Charles Clore Garden</string>
+    <string name="nature_clore_garden_description">Garden near Tel Aviv beach</string>
+    <string name="nature_clore_garden_location">Kaufmann St 5</string>
+    <string name="nature_clore_garden_geo">32.063302, 34.760474</string>
+    <string name="nature_clore_garden_time">Open 24/7</string>
+    <string name="nature_clore_garden_phone"></string>
+
+    <string name="nature_aviv_beach">Aviv Beach</string>
+    <string name="nature_aviv_beach_description">Non-motorized water sports</string>
+    <string name="nature_aviv_beach_location">Herbert Samuel Pier 5</string>
+    <string name="nature_aviv_beach_geo">32.069797, 34.763221</string>
+    <string name="nature_aviv_beach_time">Open 24/7</string>
+    <string name="nature_aviv_beach_phone"></string>
+
+    <string name="nature_jerusalem_beach">Jerusalem Beach</string>
+    <string name="nature_jerusalem_beach_description">Blue Flag beach</string>
+    <string name="nature_jerusalem_beach_location">Herbert Samuel Pier 54</string>
+    <string name="nature_jerusalem_beach_geo">32.073720, 34.764328</string>
+    <string name="nature_jerusalem_beach_time">Open 24/7</string>
+    <string name="nature_jerusalem_beach_phone"></string>
+
+    <string name="nature_bugrashov_beach">Bugrashov Beach</string>
+    <string name="nature_bugrashov_beach_description">General city beach</string>
+    <string name="nature_bugrashov_beach_location">Herbert Samuel Pier 90</string>
+    <string name="nature_bugrashov_beach_geo">32.078286, 34.766289</string>
+    <string name="nature_bugrashov_beach_time">Open 24/7</string>
+    <string name="nature_bugrashov_beach_phone"></string>
+
+    <string name="nature_frishmann_beach">Frishmann Beach</string>
+    <string name="nature_frishmann_beach_description">General city beach</string>
+    <string name="nature_frishmann_beach_location">Herbert Samuel Pier 99</string>
+    <string name="nature_frishmann_beach_geo">32.080425, 34.766998</string>
+    <string name="nature_frishmann_beach_time">Open 24/7</string>
+    <string name="nature_frishmann_beach_phone"></string>
+
+    <string name="nature_gordon_beach">Gordon Beach</string>
+    <string name="nature_gordon_beach_description">Non-motorized water sports, courts at the beach</string>
+    <string name="nature_gordon_beach_location">HaYarkon St 145</string>
+    <string name="nature_gordon_beach_geo">32.084139, 34.768224</string>
+    <string name="nature_gordon_beach_time">Open 24/7</string>
+    <string name="nature_gordon_beach_phone"></string>
+
+    <string name="nature_hilton_beach">Hilton Beach</string>
+    <string name="nature_hilton_beach_description">Lighting for nighttime surfing, Gay beach</string>
+    <string name="nature_hilton_beach_location">Shlomo Lahat Promenade</string>
+    <string name="nature_hilton_beach_geo">32.089358, 34.769692</string>
+    <string name="nature_hilton_beach_time">Open 24/7</string>
+    <string name="nature_hilton_beach_phone"></string>
+
+    <string name="nature_haazmaut_garden">Gan Haatsmaut</string>
+    <string name="nature_haazmaut_garden_description">Independence garden with view to the beach</string>
+    <string name="nature_haazmaut_garden_location">HaYarkon St 205</string>
+    <string name="nature_haazmaut_garden_geo">32.091545, 34.771695</string>
+    <string name="nature_haazmaut_garden_time">Open 24/7</string>
+    <string name="nature_haazmaut_garden_phone"></string>
+
+    <string name="nature_nordau_beach">Nordau Separate Beach</string>
+    <string name="nature_nordau_beach_description">Separate bathing for men and women - religious population</string>
+    <string name="nature_nordau_beach_location">Shlomo Lahat Promenade</string>
+    <string name="nature_nordau_beach_geo">32.091910, 34.770850</string>
+    <string name="nature_nordau_beach_time"></string>
+    <string name="nature_nordau_beach_phone"></string>
+
+    <string name="nature_metzitzim_beach">Metzitzim Beach</string>
+    <string name="nature_metzitzim_beach_description">Blue flag beach</string>
+    <string name="nature_metzitzim_beach_location">Shlomo Lahat Promenade</string>
+    <string name="nature_metzitzim_beach_geo">32.093721, 34.770535</string>
+    <string name="nature_metzitzim_beach_time">Open 24/7</string>
+    <string name="nature_metzitzim_beach_phone"></string>
+
+    <string name="nature_meir_garden">Gan Meir</string>
+    <string name="nature_meir_garden_description">Garden with playing ground and open air gym</string>
+    <string name="nature_meir_garden_location">King George St 33</string>
+    <string name="nature_meir_garden_geo">32.073257, 34.773162</string>
+    <string name="nature_meir_garden_time">Open 24/7</string>
+    <string name="nature_meir_garden_phone"></string>
+
+    <string name="nature_hapisga_garden">Hapisga Garden</string>
+    <string name="nature_hapisga_garden_description">Garden in Jaffa with a beautiful view on Tel Aviv</string>
+    <string name="nature_hapisga_garden_location">Mifrats Shlomo Promenade</string>
+    <string name="nature_hapisga_garden_geo">32.054730, 34.753264</string>
+    <string name="nature_hapisga_garden_time">Open 24/7</string>
+    <string name="nature_hapisga_garden_phone"></string>
+
+    <!--Attractions-->
+
+    <string name="attraction_city_hall">City Hall</string>
+    <string name="attraction_city_hall_description">The City Hall in the center of Tel Aviv</string>
+    <string name="attraction_city_hall_location">Shlomo Ibn Gabirol St 69</string>
+    <string name="attraction_city_hall_geo">32.081617, 34.780905</string>
+    <string name="attraction_city_hall_time"></string>
+    <string name="attraction_city_hall_phone">035218666</string>
+
+    <string name="attraction_ariela_library">Beit Ariela Library</string>
+    <string name="attraction_ariela_library_description">Public city library</string>
+    <string name="attraction_ariela_library_location">Sderot Sha\'ul HaMelech 25</string>
+    <string name="attraction_ariela_library_geo">32.076656, 34.786469</string>
+    <string name="attraction_ariela_library_time">Sun-Thu 10:00-18:45, Fri 90:00-11:45, Sat closed</string>
+    <string name="attraction_ariela_library_phone"></string>
+
+    <string name="attraction_old_railway">Old Jaffa Railway Station</string>
+    <string name="attraction_old_railway_description">Old Railway Station, Quater with restaurants and shops</string>
+    <string name="attraction_old_railway_location">Kaufmann St</string>
+    <string name="attraction_old_railway_geo">32.058985, 34.761911</string>
+    <string name="attraction_old_railway_time"></string>
+    <string name="attraction_old_railway_phone"></string>
+
+    <string name="attraction_clock_tower">Clock Tower</string>
+    <string name="attraction_clock_tower_description">Old clock tower at the enterance of Jaffa</string>
+    <string name="attraction_clock_tower_location">East of the Clock Tower</string>
+    <string name="attraction_clock_tower_geo">32.054934, 34.756270</string>
+    <string name="attraction_clock_tower_time">open 24/7</string>
+    <string name="attraction_clock_tower_phone"></string>
+
+    <string name="attraction_jaffa_port">Jaffa Port</string>
+    <string name="attraction_jaffa_port_description">Port of Jaffa with restaurants</string>
+    <string name="attraction_jaffa_port_location">Nemal Yafo St 1</string>
+    <string name="attraction_jaffa_port_geo">32.052699, 34.749809</string>
+    <string name="attraction_jaffa_port_time">open 24/7</string>
+    <string name="attraction_jaffa_port_phone"></string>
+
+    <string name="attraction_ilana_goor">Ilana Goor Museum</string>
+    <string name="attraction_ilana_goor_description">Arcitecture and art in Old Jaffa</string>
+    <string name="attraction_ilana_goor_location">Mazal Dagim St 4</string>
+    <string name="attraction_ilana_goor_geo">32.053371, 34.751482</string>
+    <string name="attraction_ilana_goor_time">open all days from 10:00-16:00</string>
+    <string name="attraction_ilana_goor_phone"></string>
+
+    <string name="attraction_hanging_tree">Suspended Orange Tree</string>
+    <string name="attraction_hanging_tree_description">Floating orange tree in Old Jaffa</string>
+    <string name="attraction_hanging_tree_location">HaTsorfim St 2</string>
+    <string name="attraction_hanging_tree_geo">32.053104, 34.752929</string>
+    <string name="attraction_hanging_tree_time"></string>
+    <string name="attraction_hanging_tree_phone"></string>
+
+    <string name="attraction_jaffa_theatre">Theatre of Jaffa</string>
+    <string name="attraction_jaffa_theatre_description">Arab Hebrew theatre of Jaffa</string>
+    <string name="attraction_jaffa_theatre_location">Mifrats Shlomo Promenade 10</string>
+    <string name="attraction_jaffa_theatre_geo">32.054748, 34.754016</string>
+    <string name="attraction_jaffa_theatre_time">035185563</string>
+    <string name="attraction_jaffa_theatre_phone"></string>
+
+    <string name="attraction_jaffa_art">Old Jaffa Street Gallery</string>
+    <string name="attraction_jaffa_art_description">Archaeology and history, boutique and art shops</string>
+    <string name="attraction_jaffa_art_location">Mazal Arieh St</string>
+    <string name="attraction_jaffa_art_geo">32.053342, 34.751901</string>
+    <string name="attraction_jaffa_art_time"></string>
+    <string name="attraction_jaffa_art_phone"></string>
+
+    <string name="attraction_balloon">Hot Air Balloon</string>
+    <string name="attraction_balloon_description">Nice way to see the city from the air</string>
+    <string name="attraction_balloon_location">Yarkon Park, Rokach Blvd 98</string>
+    <string name="attraction_balloon_geo">32.099442, 34.809914</string>
+    <string name="attraction_balloon_time">Sun-Thu, Sat 9:00-19:00, Fri 9:00-16:00</string>
+    <string name="attraction_balloon_phone"></string>
+
+    <string name="attraction_art_museum">Tel Aviv Museum of Art</string>
+    <string name="attraction_art_museum_description">Varying exhibitions</string>
+    <string name="attraction_art_museum_location">Sderot Sha\'ul HaMelech 27</string>
+    <string name="attraction_art_museum_geo">32.077605, 34.786745</string>
+    <string name="attraction_art_museum_time">Tue, Thu 10:00-21:00, Mo, Wed, Sat 10:00-18:00, Fri 10:00-14:00, Sun closed</string>
+    <string name="attraction_art_museum_phone">036077020</string>
+
+    <string name="attraction_art_center">Performing Arts Center</string>
+    <string name="attraction_art_center_description">Opera house and Cameri Theater</string>
+    <string name="attraction_art_center_location">Sderot Sha\'ul HaMelech 19</string>
+    <string name="attraction_art_center_geo">32.076265, 34.785324</string>
+    <string name="attraction_art_center_time"></string>
+    <string name="attraction_art_center_phone">036927777</string>
+
+    <string name="attraction_independence_hall">Independence Hall</string>
+    <string name="attraction_independence_hall_description">Building where the state of Israel was declared</string>
+    <string name="attraction_independence_hall_location">Rothschild Blvd 16</string>
+    <string name="attraction_independence_hall_geo">32.062850, 34.770969</string>
+    <string name="attraction_independence_hall_time">Sun-Thu 9:00-17:00, Fri 9:00-14:00, Sat closed</string>
+    <string name="attraction_independence_hall_phone">035173942</string>
+
+    <string name="attraction_habima">HaBima National Theatre</string>
+    <string name="attraction_habima_description">Israeli national theatre</string>
+    <string name="attraction_habima_location">Sderot Tarsat 2</string>
+    <string name="attraction_habima_geo">32.072539, 34.778943</string>
+    <string name="attraction_habima_time"></string>
+    <string name="attraction_habima_phone">036295555</string>
+
+    <string name="attraction_bronfman_auditorium">Charles Bronfman Auditorium</string>
+    <string name="attraction_bronfman_auditorium_description">Tel Aviv cultural and concert hall, headquarters of the Israel Philharmonic Orchestra</string>
+    <string name="attraction_bronfman_auditorium_location">Huberman St 1</string>
+    <string name="attraction_bronfman_auditorium_geo">32.073327, 34.780077</string>
+    <string name="attraction_bronfman_auditorium_time"></string>
+    <string name="attraction_bronfman_auditorium_phone">035430777</string>
+
+    <string name="attraction_rubin_museum">Rubin Museum</string>
+    <string name="attraction_rubin_museum_description">Former home of the painter Rubin</string>
+    <string name="attraction_rubin_museum_location">Bialik St 14</string>
+    <string name="attraction_rubin_museum_geo">32.072121, 34.770650</string>
+    <string name="attraction_rubin_museum_time">Mo, Wed-Fri 10:00-15:00, Tue 10:00-20:00, Sat 11:00-14:00, Sun closed</string>
+    <string name="attraction_rubin_museum_phone">035255961</string>
+
+    <string name="attraction_bialik_house">Bialik House</string>
+    <string name="attraction_bialik_house_description">Former home of the Hebrew national poet Hayyim Nahman Bialik</string>
+    <string name="attraction_bialik_house_location">Bialik St 22</string>
+    <string name="attraction_bialik_house_geo">32.072891, 34.770953</string>
+    <string name="attraction_bialik_house_time">Mo-Thu 9:00-17:00, Fri-Sat 10:00-14:00, Sun closed</string>
+    <string name="attraction_bialik_house_phone">035254530</string>
+
+    <string name="attraction_beit_hair">Beit Ha\'ir</string>
+    <string name="attraction_beit_hair_description">Old town hall of Tel Aviv</string>
+    <string name="attraction_beit_hair_location">Bialik St 27</string>
+    <string name="attraction_beit_hair_geo">32.073435, 34.771076</string>
+    <string name="attraction_beit_hair_time">Mo-Thu 9:00-17:00, Fri-Sat 10:00-14:00, Sun closed</string>
+    <string name="attraction_beit_hair_phone">037240311</string>
+
+    <string name="attraction_opera_tower">The Opera Tower</string>
+    <string name="attraction_opera_tower_description">23-story building, appartments and shops</string>
+    <string name="attraction_opera_tower_location">Allenby St 1</string>
+    <string name="attraction_opera_tower_geo">32.074023, 34.765632</string>
+    <string name="attraction_opera_tower_time"></string>
+    <string name="attraction_opera_tower_phone"></string>
+
+    <string name="attraction_shalom_tower">Shalom Tower</string>
+    <string name="attraction_shalom_tower_desription">Oldest and first high building of Tel Aviv, art and history inside</string>
+    <string name="attraction_shalom_tower_location">Ahad Ha\'Am St 9</string>
+    <string name="attraction_shalom_tower_geo">32.064119, 34.769504</string>
+    <string name="attraction_shalom_tower_time"></string>
+    <string name="attraction_shalom_tower_phone"></string>
+
+    <string name="attraction_sarona">Sarona</string>
+    <string name="attraction_sarona_description">Old German settlement now quater with restaurants and boutiques</string>
+    <string name="attraction_sarona_location">Sarona</string>
+    <string name="attraction_sarona_geo">32.072054, 34.786680</string>
+    <string name="attraction_sarona_time"></string>
+    <string name="attraction_sarona_phone"></string>
+
+    <string name="attraction_jabotinski_house">Beit Jabotinski Institute</string>
+    <string name="attraction_jabotinski_house_description">Museum for Jabotinsky, visionary and inspirational leader during the establishment of the State</string>
+    <string name="attraction_jabotinski_house_location">Shim\'on Rokah St 21</string>
+    <string name="attraction_jabotinski_house_geo">32.072930, 34.774870</string>
+    <string name="attraction_jabotinski_house_time">Sun-Thu 9:00-16:00, Fri-Sat closed</string>
+    <string name="attraction_jabotinski_house_phone">035287320</string>
+
+    <string name="attraction_gutman_museum">Gutman Museum</string>
+    <string name="attraction_gutman_museum_description">Nahum Gutman Museum of Art</string>
+    <string name="attraction_gutman_museum_location">King George St 38</string>
+    <string name="attraction_gutman_museum_geo">32.060920, 34.766521</string>
+    <string name="attraction_gutman_museum_time">Mon-Thu 10:00-16:00, Fri 10:00-14:00, Sat 10:00-15:00, Sun closed</string>
+    <string name="attraction_gutman_museum_phone">035161970</string>
+
+    <string name="attraction_dellal_center">Suzanne Dellal Center</string>
+    <string name="attraction_dellal_center_description">Center for Dance and Theater</string>
+    <string name="attraction_dellal_center_location">Yehieli St 5</string>
+    <string name="attraction_dellal_center_geo">32.060718, 34.764143</string>
+    <string name="attraction_dellal_center_time"></string>
+    <string name="attraction_dellal_center_phone">035105656</string>
+
+    <string name="attraction_etzel_museum">Etzel Museum</string>
+    <string name="attraction_etzel_museum_description">Museum about the Etzel underground group fighting for Isreal\'s independence</string>
+    <string name="attraction_etzel_museum_location">Charles Clore Garden</string>
+    <string name="attraction_etzel_museum_geo">32.059255, 34.758581</string>
+    <string name="attraction_etzel_museum_time">Sun-Thu 8:30-16:30, Fri-Sat closed</string>
+    <string name="attraction_etzel_museum_phone">035177180</string>
+
+    <!--Events-->
+
+    <string name="event_cinema">City Cinema</string>
+    <string name="event_cinema_description">General movies theater</string>
+    <string name="event_cinema_location">Ben Ami St 16</string>
+    <string name="event_cinema_geo">32.078356, 34.773680</string>
+    <string name="event_cinema_time"></string>
+    <string name="event_cinema_phone"></string>
+
+    <string name="event_purim">Purim Celebration</string>
+    <string name="event_purim_description">National holiday (Purim) celebration party</string>
+    <string name="event_purim_location">Hamedina Square</string>
+    <string name="event_purim_geo">32.086621, 34.789861</string>
+    <string name="event_purim_time">12.03.2018</string>
+    <string name="event_purim_phone"></string>
+
+    <string name="event_independence">Independence night celebration</string>
+    <string name="event_independence_description">Music and dance shows for the celebration of Israel\'s independence</string>
+    <string name="event_independence_location">Rabin Square</string>
+    <string name="event_independence_geo">32.080651, 34.780612</string>
+    <string name="event_independence_time">18.04.2018 from 20:50</string>
+    <string name="event_independence_phone"></string>
+
+    <string name="event_opera_open_air">Open Air Opera</string>
+    <string name="event_opera_open_air_description">City event, open air opera</string>
+    <string name="event_opera_open_air_location">Yarkon Park</string>
+    <string name="event_opera_open_air_geo">32.103506, 34.814404</string>
+    <string name="event_opera_open_air_time">coming soon</string>
+    <string name="event_opera_open_air_phone"></string>
+
+    <string name="event_yoga">Friday Yoga</string>
+    <string name="event_yoga_description">free yoga sessions</string>
+    <string name="event_yoga_location">Tel Aviv Port</string>
+    <string name="event_yoga_geo">32.099740, 34.776930</string>
+    <string name="event_yoga_time">every Friday at 8 AM</string>
+    <string name="event_yoga_phone"></string>
+
+    <string name="event_folk_dancing">Israeli Folk Dancing</string>
+    <string name="event_folk_dancing_description">free national folk dancing sessions</string>
+    <string name="event_folk_dancing_location">Gordon Beach promenade</string>
+    <string name="event_folk_dancing_geo">32.083678, 34.768538</string>
+    <string name="event_folk_dancing_time">every Saturday at 11 AM</string>
+    <string name="event_folk_dancing_phone"></string>
+
 </resources>
